@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(247, 255, 252);
+
+}
+h1{
+    font-style: italic;
+    text-align: center;
+    color: blue;
+    font-display: 100px;
+}
+h2{
+
+    font-style: bold;
+    background-color: lightblue;
+    text-align: center;
+     color: red;
+}
+h3{
+    font-size: large;
+    text-align: center;
+    font-style: italic;
+
+}
