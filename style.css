@@ -1,12 +1,33 @@
 body{
-    background-color: rgb(247, 255, 252);
+    background-color: rgb(230, 236, 238);
+    
+    
 
+}
+.nepalflag{
+    height: 80px;
+    width: 50px;
+    align-self: auto;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.logo:hover{
+    color: bisque;
+    background-color: antiquewhite;
 }
 h1{
     font-style: italic;
+    font-display: Matemasie;
     text-align: center;
     color: blue;
     font-display: 100px;
+    font-family: "Matemasie";
 }
 h2{
 
@@ -14,10 +35,92 @@ h2{
     background-color: lightblue;
     text-align: center;
      color: red;
+     font-family: "Matemasie";
 }
+
 h3{
-    font-size: large;
+    font-size: ;
     text-align: center;
     font-style: italic;
 
 }
+h6{
+    align-items: center;
+    font-size: larger;
+    align-content: center;
+    justify-content: center;
+}
+h5{
+font-size: larger;
+font-family: "impact";
+color: blue;
+justify-content:"center";
+    
+}
+footer{
+    background-color: rgb(242, 139, 95);
+    color:black;
+    text-align: center;
+    
+   
+
+}
+.flex-container{
+    display: flex;
+    background-color: rgb(207, 249, 251);
+    justify-content: center;
+    
+
+}
+.location{
+    background-color: antiquewhite;
+    font-style: initial;
+    color: blue;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-family: "arial";
+    
+}
+.classes{
+    background-color: rgb(247, 213, 213);
+    font-style: inherit;
+    color: brown;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-family: "Matemasie";
+}
+
+.contact{
+
+    color:black;
+    font-style: oblique;
+    font-family: "Gill Sans";
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: auto;
+    display: flex;
+    row-gap: 10px;
+
+    
+    
+}
+button{
+    padding: 10px;
+    background-color: rgba(155, 150, 228, 0.61);
+    padding-left: 12px;
+    padding-bottom: 10px;
+    color:black;
+}
+button:hover{
+    background-color: rgb(37, 54, 148);
+}
+ .click:hover{
+background-color: brown;
+width: 20px;
+ }
+main{
+
+    flex-grow: 1;
+}
+
